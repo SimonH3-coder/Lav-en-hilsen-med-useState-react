@@ -1,5 +1,6 @@
 import "./App.css";
-import { Counter } from "./components/Counter.tsx";
+import { Counter } from "./components/Hilsen opg/Counter.tsx";
+import { Taellercomponent } from "./components/Taeller opg/Taellercomponent.tsx";
 
 function App() {
   // En component som lave en hilsen
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <Counter />
+      <Taellercomponent />
     </>
   );
 }
